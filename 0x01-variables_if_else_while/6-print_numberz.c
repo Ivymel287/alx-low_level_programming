@@ -1,21 +1,21 @@
-#include <stdio.h>
+#include<stdio.h>
+#include <stdlib.h>
+
 /**
- * main - Entry point
- *
- *Return: Always 0 (Success)
- */
+* main - Entry point
+*
+* Return: Always 0 (Success)
+*/
+
 int main(void)
-
-[
-int i;
-
-for (i = 48; i <= 57; i++)
-[
-putchar (i);
-]
-
-putchar ('\n');
-
-return (0);
-
-]
+{
+	int i = 48;
+	/* your code goes there */
+	while (i < 58)
+	{
+		putchar(i);
+		i++;
+	}
+	putchar('\n');
+	return (0);
+}
