@@ -1,14 +1,15 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * add -prints add two numbers
- *@i: print int i
- *@k: print int k
- * Return: Always 0.
- */
-
-int add(int i, int k)
+* add - a function that adds two integers
+* and returns the result.
+*
+* @a: firstnumber.
+* @b: secondnumber.
+*
+* Return: add of first number and second number.
+*/
+int add(int a, int b)
 {
-return (i + k);
+	return (a + b);
 }
